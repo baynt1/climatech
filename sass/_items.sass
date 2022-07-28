@@ -1,0 +1,114 @@
+.items
+    margin-bottom: 80px
+    position: relative
+    &-flex
+        display: flex
+        justify-content: space-around
+        align-items: center
+        &:last-child
+            margin-top: 66px
+    &-title
+        margin-bottom: 65px
+        font-family: 'Play'
+        font-style: normal
+        font-weight: 700
+        font-size: 40px
+        line-height: 50px
+        text-align: center
+        color: #000000
+    &-btns
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 65px
+        z-index: 3
+    &-btn
+        width: 130px
+        padding: 13px 22px
+        outline: none
+        color: transparent
+        border: 1px solid #000000
+        font-family: 'Roboto'
+        font-weight: 400
+        font-size: 14px
+        text-align: center
+        color: #000000
+        &:hover
+            cursor: pointer
+        &__active
+            font-family: 'Roboto'
+            font-weight: 400
+            font-size: 14px
+            text-align: center
+            color: #FFFFFF
+            background: #22ACE7
+            border: none
+            box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15)
+    &-card
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        width: 283px
+        height: 338px
+        background: #CEF0FF
+        box-shadow: 4px 4px 15px 5px rgba(0, 85, 121, 0.25)
+        &__img
+            margin-bottom: 50px
+        &__title
+            margin-bottom: 40px
+            font-family: 'Roboto'
+            font-weight: 600
+            font-size: 18px
+            text-align: center
+            color: #000000
+        &__subtitle
+            font-family: 'Roboto'
+            font-weight: 400
+            font-size: 14px
+            text-align: center
+            text-decoration-line: underline
+            color: #005579
+            &:hover
+                text-decoration-line: underline
+                color: #005579
+    &-cloud
+        &__1
+            z-index: -1
+            position: absolute
+            width: 500px
+            height: 650px
+            top: 130px
+            right: 0
+            background: url("../img/items/cloud.png")
+            background-position: center
+            background-repeat: no-repeat
+            background-size: contain
+        &__2
+            z-index: -1
+            position: absolute
+            width: 700px
+            height: 1750px
+            top: 130px
+            left: 0
+            background: url("../img/items/cloud2.png")
+            background-position: center
+            background-repeat: no-repeat
+            background-size: contain
+.prevslick
+    position: absolute
+    top: 420px
+    left: 0px
+    display: block
+    height: 62px
+    width: 38px
+    background: url('../img/ourwork/prev.svg') no-repeat
+
+.nextslick
+    position: absolute
+    top: 420px
+    right: 0px
+    display: block
+    height: 62px
+    width: 38px
+    background: url('../img/ourwork/next.svg') no-repeat

@@ -1,0 +1,92 @@
+.main
+    padding-top: 183px
+    padding-bottom: 137px
+    background: url("../img/main/main.jpg")
+    background-size: cover
+    background-position: center
+    margin-bottom: 65px
+    position: relative
+    z-index: 1
+    &-btns
+        position: relative
+        z-index: -4
+    &-img
+        position: relative
+        z-index: -4
+    &-title
+        z-index: -4
+        position: relative
+        margin-bottom: 60px
+        font-family: 'Play'
+        font-weight: 400
+        font-size: 40px
+        color: #FFFFFF
+        line-height: 50px
+        text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15)
+    &-subtitle
+        z-index: -4
+        position: relative
+        margin-bottom: 60px
+        font-family: 'Roboto'
+        font-weight: 400
+        font-size: 18px
+        line-height: 30px
+        color: #FFFFFF
+    &-btn
+        padding: 21px 30px
+        font-family: 'Roboto'
+        font-weight: 600
+        font-size: 18px
+        color: #FFFFFF
+        background: #025ED4
+        box-shadow: inset 2px 2px 5px rgba(133, 217, 255, 0.6)
+        transition: 0.3s
+        &:first-child
+            margin-right: 45px
+        &:hover
+            box-shadow: none
+        &__white
+            padding: 21px 30px
+            font-family: 'Roboto'
+            font-weight: 600
+            font-size: 18px
+            color: #FFFFFF
+            outline: none
+            background: transparent
+            border: 1px solid #FFFFFF
+            background-color: none
+            transition: 0.3s
+            &:hover
+                background: #FFFEFE
+                border: 1px solid #FFFFFF
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1)
+                color: #000
+    &-text
+        &-bold
+            display: block
+            font-family: 'Play'
+            font-weight: 700
+            font-size: 40px
+            color: #FFFFFF
+            line-height: 50px
+            text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15)
+    &-blur
+        position: absolute
+        width: 61%
+        height: 100%
+        left: 0px
+        top: 0px
+        background: linear-gradient(89.5deg, rgba(0, 0, 0, 0.2) 2.06%, rgba(0, 0, 0, 0.044694) 39.98%, rgba(0, 0, 0, 0) 101.51%)
+        backdrop-filter: blur(5px)
+        z-index: -10
+    &-burger
+        display: none
+        cursor: pointer
+.bar
+    display: block
+    width: 25px
+    height: 3px
+    margin: 5px auto
+    transition: all .3s ease-in-out
+    background: white
+    z-index: 3

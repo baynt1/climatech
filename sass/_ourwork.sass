@@ -1,0 +1,78 @@
+.ourwork
+    margin-bottom: 80px
+    position: relative
+    &-title
+        text-align: center
+        margin-bottom: 47px
+        font-family: 'Play'
+        font-weight: 700
+        font-size: 40px
+        color: #000000
+.slick
+    &-card
+        &__title
+            margin-bottom: 15px
+            font-family: 'Roboto'
+            font-weight: 600
+            font-size: 25px
+            text-decoration-line: underline
+            color: #000000
+        &__subtitle
+            font-family: 'Roboto'
+            font-weight: 400
+            font-size: 18px
+            color: #000000
+        &__img
+            position: relative
+            margin-bottom: 32px
+            &-hover
+                z-index: -1
+                &:hover + .slick-card__img-text, &:hover
+                    opacity: 1
+            &-text
+                opacity: 0
+                position: relative
+                z-index: 9
+                width: 262px
+                margin-top: -60px
+                margin-left: 6px
+                padding: 10px 10px
+                background: rgba(94, 90, 90, 0.69)
+                &:hover
+                    opacity: 1
+            &-link
+                font-family: 'Roboto'
+                font-weight: 400
+                font-size: 18px
+                text-decoration-line: underline
+                color: #FFFFFF
+                &:hover
+                    color: #FFFFFF
+            &-arrow
+                margin-left: 25px
+                display: inline-block !important
+.prev
+    position: absolute
+    top: 250px
+    left: 250px
+    display: block
+    height: 62px
+    width: 38px
+    background: url('../img/ourwork/prev.svg') no-repeat
+
+.next
+    position: absolute
+    top: 250px
+    right: 250px
+    display: block
+    height: 62px
+    width: 38px
+    background: url('../img/ourwork/next.svg') no-repeat
+
+.back-lin
+    position: absolute
+    z-index: -10
+    top: -66px
+    width: 100%
+    height: 1750px
+    background: linear-gradient(180deg, rgba(197, 238, 255, 0.34) 0%, rgba(197, 238, 255, 0.14) 58.27%, rgba(197, 238, 255, 0) 129.64%)
